@@ -15,14 +15,14 @@ cask "filestar" do
 
   # Filestar updates itself; brew upgrade leaves it alone unless --greedy.
   auto_updates true
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
+
+  pkg "Filestar.#{version}.osx-x64.pkg"
 
   # Tells the installer it came from Homebrew: it tags the install and does not open the app.
   preflight do
     File.write("/tmp/com.filestar.install-channel", "homebrew\n")
   end
-
-  pkg "Filestar.#{version}.osx-x64.pkg"
 
   uninstall quit:    "com.filestar.macos",
             pkgutil: ["com.Filestar.pkg.Filestar", "com.Filestar.pkg.Filestar.arm64"],
