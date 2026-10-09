@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ftools channels (Bosma Interactive AB). -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>filestar</id>
+    <version>30.0.0.0</version>
+    <packageSourceUrl>https://github.com/filestar/homebrew-tap/tree/main/chocolatey/filestar</packageSourceUrl>
+    <owners>Bosma Interactive AB</owners>
+    <title>Filestar</title>
+    <authors>Bosma Interactive AB</authors>
+    <projectUrl>https://filestar.com/</projectUrl>
+    <iconUrl>https://filestar.com/logo-512.png</iconUrl>
+    <copyright>Copyright Bosma Interactive AB 2017-2026</copyright>
+    <licenseUrl>https://filestar.com/terms-and-conditions</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <docsUrl>https://filestar.com/help</docsUrl>
+    <tags>convert converter file-converter compress resize batch filestar</tags>
+    <summary>Do anything with any file</summary>
+    <description>Filestar converts, compresses, resizes, renames and transforms files: thousands of formats (documents, images, audio, video, 3D, CAD, archives, embroidery and more) from one app or the command line (filestarcli). Many conversions run locally; some use Filestar&apos;s cloud.
+
+Installs the desktop app and puts filestarcli on the PATH, without an installer window. Filestar updates itself; `choco upgrade filestar` works too.
+
+More ways to install: https://filestar.com/help/installation/other-ways-to-install</description>
+    <releaseNotes>https://filestar.com/</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
