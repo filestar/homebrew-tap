@@ -1,9 +1,9 @@
 # Created by ftools channels (Bosma Interactive AB). Do not edit by hand: the next release overwrites it.
 cask "filestar" do
-  version "30.1.2.0"
-  sha256 "9f18244ff86bcefcd0c41567b01285de13336fead40154dd5013e56bac18c040"
+  version "30.1.3.0"
+  sha256 "f950115c12ece0708830c92096cf80511664ba9da57e88f48048d89202b9323f"
 
-  url "https://release.filestar.com/releases/#{version}/Filestar.#{version}.osx-x64.pkg"
+  url "https://release.filestar.com/releases/#{version}/Filestar.#{version}.osx-universal.pkg"
   name "Filestar"
   desc "Convert, compress and transform any file"
   homepage "https://filestar.com/"
@@ -17,7 +17,7 @@ cask "filestar" do
   auto_updates true
   depends_on macos: :monterey
 
-  pkg "Filestar.#{version}.osx-x64.pkg"
+  pkg "Filestar.#{version}.osx-universal.pkg"
 
   # Tells the installer it came from Homebrew: it tags the install and does not open the app.
   preflight do
