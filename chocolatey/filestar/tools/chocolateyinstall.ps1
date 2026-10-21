@@ -5,11 +5,11 @@ $ErrorActionPreference = 'Stop'
 $packageArgs = @{
   packageName    = $env:ChocolateyPackageName
   fileType       = 'exe'
-  url            = 'https://release.filestar.com/releases/30.1.7.0/Filestar.30.1.7.0.win-x86.exe'
-  checksum       = '8dcc520f1aabb35026ca8f2e4164244a4bdf8323967eb9530f27f810cbfbea0c'
+  url            = 'https://release.filestar.com/releases/30.2.0.0/Filestar.30.2.0.0.win-x86.exe'
+  checksum       = '488e6660ce3f0169b04e973135d832421b6f939a8dd922a1c05ce1025e426ec8'
   checksumType   = 'sha256'
-  url64bit       = 'https://release.filestar.com/releases/30.1.7.0/Filestar.30.1.7.0.win-x64.exe'
-  checksum64     = 'c5a9c8450f0502f5b4984ea412ccd0017fee3bcca592fc222b813086f822070f'
+  url64bit       = 'https://release.filestar.com/releases/30.2.0.0/Filestar.30.2.0.0.win-x64.exe'
+  checksum64     = '642b3a85ecdde327fc54f5bc7a51c84e7318ada8f4dde15bc0a9c3f9abe01455'
   checksumType64 = 'sha256'
   silentArgs     = '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP- /ALLUSERS /channel=chocolatey'
   validExitCodes = @(0)
