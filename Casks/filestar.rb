@@ -1,7 +1,7 @@
 # Created by ftools channels (Bosma Interactive AB). Do not edit by hand: the next release overwrites it.
 cask "filestar" do
-  version "30.4.0.0"
-  sha256 "f81edc292ad680d2c51c2f652ac4b3c7b149776a2ed85fda3b767ba44ffe38f5"
+  version "30.5.0.0"
+  sha256 "803a0ce3fe5680f5bfc1ba8f95e2e549a4a6feeae518fce49e8f576913da0a80"
 
   url "https://release.filestar.com/releases/#{version}/Filestar.#{version}.osx-universal.pkg"
   name "Filestar"
